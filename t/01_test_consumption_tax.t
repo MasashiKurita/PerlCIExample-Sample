@@ -1,4 +1,4 @@
-e strict;
+use strict;
 use warnings;
 
 use Test::More;
@@ -6,9 +6,9 @@ use Test::More;
 plan (tests => 5);
 
 # 正しくuseできるかどうか
-use_ok("ConsumptionTax::JP");
+use_ok("PerlCIExample::ConsumptionTax");
 
-my $consumption_jp = new ConsumptionTax::JP->new({
+my $consumption_jp = new PerlCIExample::ConsumptionTax->new({
     consumption_tax_rate => 0.05,
 });
 
