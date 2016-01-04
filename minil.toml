@@ -1,4 +1,0 @@
-name = "PerlCIExample-Sample"
-# badges = ["travis"]
-module_maker="ModuleBuildTiny"
-
